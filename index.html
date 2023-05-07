@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: white;
+
+
+        }
+    /* -------navigation bar code -------*/
+        .container{
+            background-color:black;
+            color: white;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            
+
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .shivam{
+            font-family: cursive;
+            font-size: 18px;
+        }
+
+      .shivam:hover{
+        color: gray;
+      }
+      /* -----------------NAVIGATION BAR LOGO CODE-------------------*/
+      img.picture{
+        width: 6%;
+        margin: 4px 0px;
+    
+      }
+
+    /*  img.picture1{
+        width: 30%
+      }
+      .text{
+    
+        
+        font-size: 20px;
+        margin-top: -6px;
+        margin-left: 10px;
+}
+      .container img{
+        width: 5%;
+        margin: 17px -30px;
+        padding: 10px 10px;
+      }
+
+      .box img{
+        margin: auto;
+        width: 100%;
+        display: block;
+        height: 460px;
+}
+*/
+
+/*------------------------------------------------------------*/
+.center{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: white;
+
+  
+
+}
+.center1{
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 54px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+      }
+/*----------------- IMAGE SLIDER CODE------------------*/
+
+  body{
+    margin: 0;
+    
+}
+div#slider{
+    overflow: hidden;
+}
+div#slider figure img{
+height: 470px; width: 20%;float: left;
+}
+div#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+@keyframes slider {
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+    
+
+}
+div h3{
+  font-size: 18px;
+  color: rgb(56, 54, 54);
+    margin: 80px 120px;
+    
+}
+
+div h2{
+  
+  font-size: 40px;
+  color: rgb(53, 48, 48);
+    margin: -63px 112px;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+  
+  background-color: rgb(230, 163, 74);
+   height: 1px;
+    width: 52%;
+    text-align: left;
+    margin-left: 112px;
+}
+p{
+  display: inline-block;
+  text-align: justify;
+  
+    margin: 65px 109px;
+    width: 42%;
+}
+
+
+img{
+  display: inline-block;
+  
+    width: 26%;
+    margin-bottom: 6px;
+    margin-left: 20px;
+}
+
+.photo{
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+.offer-text{
+  display: inline-block;
+ /* margin: 50px 80px;*/
+ margin-top: 10px;
+  font-size: 36px;
+}
+.exciting{
+  color: rgb(238, 99, 99);
+  display: inline-block;
+  margin: 10px 123px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.btn{
+  background-color: #e39a3c;
+  width: 124px;
+    height: 34px;
+   border: 1px solid #e39a3c;
+    border-radius: 8px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    color: white;
+    font-size: 15px;
+}
+.btn:hover{
+  background-color: #5c76b7;
+
+}
+/*--------------- FIRST FLEX BOX CODE-------------*/
+.flex-box{
+  width: 90%;
+  height: 400px;
+  border-radius: 4px;
+  /*border: 2px solid black;*/
+  display: flex;
+  margin: 30px 44px;
+}
+.item{
+  /*
+  width: 20%;
+  height: 40px;
+*/
+        width: 200px;
+        height: 200px;
+        
+        margin: 10px;
+        padding: 3px;
+        border: 2px solid rgb(224, 220, 220);
+        text-align: center;
+}
+#item-1{
+  width: 30%;
+  height: 90%;
+}
+#item-2{
+  width: 30%;
+  height: 90%;
+}
+#item-3{
+  width: 30%;
+  height: 90%;
+}
+.item img{
+  width: 102%;
+    margin: 83px -3px;
+    margin-top: -3px;
+}
+#item-1 img{
+height: 230px;
+}
+#item-2 img{
+  height: 230px;
+
+}
+#item-3 img{
+  height: 230px;
+
+}
+
+
+/* ---------------SECOND FLEX BOX CODE------------------*/
+.flex-boxing{
+  width: 90%;
+  height: 400px;
+  border-radius: 4px;
+ /* border: 2px solid black; */
+  display: flex;
+  margin: 10px 44px;
+}
+.box{
+  /*
+  width: 20%;
+  height: 40px;
+*/
+        width: 200px;
+        height: 200px;
+        
+        margin: 10px;
+        padding: 3px;
+        border: 2px solid rgb(224, 220, 220);
+        text-align: center;
+}
+#item-4{
+  width: 30%;
+  height: 90%;
+}
+#item-5{
+  width: 30%;
+  height: 90%;
+}
+#item-6{
+  width: 30%;
+  height: 90%;
+}
+.box img{
+  width: 102%;
+    margin: 83px -3px;
+    margin-top: -3px;
+}
+#item-4 img{
+height: 230px;
+}
+#item-5 img{
+  height: 230px;
+
+}
+#item-6 img{
+  height: 230px;
+
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+ button.redish{
+  background-color: red;
+  color: white;
+  border: 1px solid rgb(168, 71, 71);
+  width: 30%;
+  height: 10%;
+  border-radius: 13px;
+  margin-top: 113px;
+}
+button.redish:hover{
+  background-color: rgb(187, 13, 13);
+}
+      .Tushar{
+        margin: -88px 12px;
+    font-size: 19px;
+    text-align: left;
+    
+    
+
+}
+
+    
+       .Anchit{
+        font-size: 26px;
+      
+
+       }    
+       
+       
+       .client{
+        text-align: center;
+        font-size: 30px;
+       }
+       .arrow{
+        font-size: 30px;
+        color: red;
+       }
+       .review{
+        display: inline-block;
+        text-align: justify;
+        margin: 65px 109px;
+        width: 58%;
+        margin-top: 35px;
+        margin-left: 190px;
+        font-family: cursive;
+       text-align-last: center;
+       animation: slide-left 8s;
+}
+@keyframes slide-left {
+  from{
+    margin-left: 100%;
+    width: 70%; 
+  }
+}
+
+/*  ---------------- FOOTER CODE --------------*/
+
+
+
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background: linear-gradient(to right,#00093c, #2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+
+}
+.row{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 28%;
+  padding: 10px;
+
+}
+
+  .travellogo{
+    width: 98px;
+    margin-bottom: 8px;
+    margin-left: 60px;
+  }  
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: absolute;
+  }   
+    .email-id{
+      width: fit-content;
+      border-bottom: 1px solid #ccc;
+    }
+    .dell{
+      display: inline-block;
+    text-align: justify;
+    margin: 8px 47px;
+    width: 93%;
+    }
+    p{
+      display: inline-block;
+    text-align: justify;
+    margin: 8px 12px;
+    width: 42%;
+}
+    
+
+    </style>
+</head>
+
+
+<body>
+   
+    <div class="container">
+    <img src="logo.jpg" alt="This is a logo" class="picture">
+     <div class="shivam" id="item-1"> Home</div>
+     <div class="shivam" id="item-2"> Destinations </div>
+     <div class="shivam" id="item-3"> Packages</div>
+     <div class="shivam" id="item-4"> Contact Us</div>
+     <div class="shivam" id="item-5"> Login </div>
+    </div>
+
+    <div id="slider">
+      <figure>
+        <div class="center">Welcome to Maldives</div>
+        <div class="center1">Always Nature</div>
+          <img src="maldives1.jpg" alt="">
+    
+          
+          <img src="nepal.jpg" alt="">
+          <img src="goa.jpg" alt="">
+      </figure>
+  </div>
+  <div class="text">
+    <h3 class="text1">SO GLAD YOU ARE HERE</h3>
+    <h2 class="text2">TRAVEL WITH TRAVELITE</h2>
+  </div>
+      
+       <hr>
+  <div class="para"><p>Travelite (India) invites you to discover the mesmerising beauty of our Indian subcontinent Combining the cultural splendours of India with the snow covered Himalayan peaks of Nepal, the serenity of Bhutan, green tea estates of Sri Lanka and the turquoise beaches of Maldives, the Indian sub continent treasures it all.
+
+    When travelling to India, it is worth taking a short trip to a neighbouring country, to enhance your experience. You will notice a striking similarity, yet subtle differences in the people, food, culture, religion and lifestyle in the entire Indian subcontinent. It is in
+    
+    these differences that we celebrate the 'unity in diversity' of our land.</p> 
+    <img src="banner.png" alt="">
+  </div>
+
+  <div class="photo">
+    <img src="pics.jpg" alt="">
+    <img src="pics2.jpg" alt="">
+    <img src="pics4.jpg" alt="">
+  </div>
+
+  <div class="offers">
+   <h2 class="offer-text"> &#11088 NEW OFFERS</h2> 
+   <button type="button" class="btn">View all offers </button> 
+  </div>
+  <div>
+    <h3 class="exciting">Exciting Offers Waiting For You</h3>  
+  </div> 
+    <div> <hr></div>
+
+    <div class="flex-box">
+      <div 
+      class="item" id="item-1"> <img src="golf2.jpg" alt="">
+       <div class="Tushar"> &#128345  5 Days / 4 Nights
+         <div class="Anchit">
+          Golf Tour.
+         </div>
+         </div>
+       <button type="button" class="redish"> View Offer</button>
+    </div>
+
+
+
+      <div 
+      class="item" id="item-2"> <img src="ladakh.jpg" alt="">  
+      <div class="Tushar">&#128345  8 Days / 7 Nights 
+        <div class="Anchit">
+          Discover Ladakh by Bike.
+        </div>
+      </div> 
+      <button type="button" class="redish"> View Offer</button>
+    </div>
+
+
+      <div 
+      class="item" id="item-3"> <img src="wildlife.jpg" alt="">  
+      <div class="Tushar"> &#128345  4 Days / 3 Nights 
+        <div class="Anchit">
+          See the jungle life.
+        </div>
+      </div> 
+      <button type="button" class="redish"> View Offer</button>
+    </div>
+   </div>
+
+<!--     -------------------------------------------------------------------------------------------------------------           -->
+
+   <div class="flex-boxing">
+
+    <div
+     class="box" id="item-4"> <img src="Darjeeling.jpg" alt=""> 
+     <div class="Tushar"> &#128345  8 Days / 7 Nights
+      <div class="Anchit">
+        All this and More.
+      </div>
+      
+    </div>
+     <button type="button" class="redish">View offers </button> 
+    </div>
+
+
+    <div 
+    class="box" id="item-5"> <img src="bird.png" alt=""> 
+    <div class="Tushar"> &#128345  3 Days / 2 Nights 
+      <div class="Anchit">
+          Bird Watching in North. 
+        </div>
+    </div>
+    <button type="button" class="redish">View offers </button> 
+  </div>
+
+
+    <div class="box" id="item-6"> <img src="rajasthan.jpg" alt=""> 
+      <div class="Tushar">&#128345   10 Days / 9 Nights 
+      <div class="Anchit">
+        Tour of Culture.
+      </div>
+    </div> 
+      <button type="button" class="redish">View offers </button> 
+    </div>
+ </div>
+
+<h2 class="client"> WHAT OUR CLIENT SAY </h2>
+
+<div> <p class="review"> Dear Chandan, Warm greetings! Thank you very much for You and for Your team for holidays of Anastasia! Yesterday I talked with Anastasia She liked her holidays and India very much! And she will be happy to be back! -- Ms. CHUDINA ANASTASILA</p> </div>
+       
+
+
+
+<!--    -----------   ****************    footer code   --------------  *****************           ------------------->
+
+<footer>
+  <div class="row">
+    <div class="col">
+      <img src="logo.jpg" class="travellogo">
+      <p class="dell"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, rerum quas. Minus blanditiis delectus repudiandae earum, deserunt adipisci non impedit. </p>
+    </div>
+    <div class="col">
+      <h3> Office</h3>
+      <p>ITPL Road</p>
+      <p>Whitefield,Banglore</p>
+      <p>Karnataka, PIN - 560066,India</p>
+      <p class="email-id">shivamsingh@outlook.com</p>
+      <h4>+91 - 0123456789</h4>
+    </div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</footer>
+
+</body>
+</html>
